@@ -7,7 +7,7 @@
    <img src="https://img.icons8.com/clouds/100/000000/timer.png"/>
   </a>
 
-  <h1 align="center"> Movie Recoomendation System </h1>
+  <h1 align="center"> Movie Recommendation System </h1>
 
  <!-- <p align="center">
     An simple pomodoro clock to enhance your productivity!
