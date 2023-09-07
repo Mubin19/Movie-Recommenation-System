@@ -4,7 +4,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Mubin19/Movie-Recommenation-System/">
-   <img src="https://img.icons8.com/clouds/100/000000/timer.png"/>
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvOrmeFzYgUgUyJHnVl8AxgIG6FjQuXEE0qw&usqp=CAU"/>
   </a>
 
   <h1 align="center"> Movie Recommendation System </h1>
