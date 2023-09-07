@@ -1,4 +1,4 @@
-<!-- # Movie Recoomendation System -->
+<!-- # Movie Recommendation System -->
 
 <!-- PROJECT LOGO -->
 <br />
