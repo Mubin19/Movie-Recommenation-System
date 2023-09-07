@@ -1,43 +1,97 @@
-# The-Movie-Cinema
+<!-- # Movie Recoomendation System -->
 
-![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
-![Framework](https://img.shields.io/badge/Framework-Flask-red)
-![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS/JS-green)
-![API](https://img.shields.io/badge/API-TMDB-fcba03)
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/Mubin19/Movie-Recommenation-System/">
+   <img src="https://img.icons8.com/clouds/100/000000/timer.png"/>
+  </a>
 
-This application provides all the details of the requested movie such as overview, genre, release date, rating, runtime, top cast, reviews, recommended movies, etc.
+  <h1 align="center"> Movie Recoomendation System </h1>
 
-The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.
+ <!-- <p align="center">
+    An simple pomodoro clock to enhance your productivity!
+    <br />
+    <br />
+    <a href="https://pomodoro-817b5.web.app/">View Demo</a>
+   
+  </p>   -->
+</p>
 
-## Link to the application
 
-Check out the live demo: https://tmc.kishanlal.dev/
+# Introduction
 
-Don't worry if the movie that you are looking for is not auto-suggested. Just type the movie name and click on "enter". You will be good to go even though if you made some typo errors.
+Movie Recommendation System is a web application,which is used to filter and predict only those movies that a
+corresponding user is most likely want to watch. ML algorithms are used for these recommendation system. User
+can watch movies according to Subscription plans by making payment through Razor pay.
 
-## 'Invalid Request' Error
 
-If you're getting invalid request error in your application, kindly go through this issue - https://github.com/kishan0725/The-Movie-Cinema/issues/2
+# Techology Stack
 
-## How to get the API key?
+<img align="left" alt="Python" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" />
+<img align="left" alt="HTML5" width="40px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
+<img align="left" alt="CSS3" width="40px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
+<img align="left" alt="RazorPay" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Razorpay_logo.webp" />
 
-Create an account in https://www.themoviedb.org/, click on the `API` link from the left hand sidebar in your account settings and fill all the details to apply for API key. If you are asked for the website URL, just give "NA" if you don't have one. You will see the API key in your `API` sidebar once your request is approved.
 
-## How to run the project?
 
-1. Clone this repository in your local system.
-2. Install all the libraries mentioned in the [requirements.txt](https://github.com/kishan0725/The-Movie-Cinema/blob/master/requirements.txt) file with the command `pip install -r requirements.txt`.
-3. Replace YOUR_API_KEY in **both** the places (line no. 23 and 43) of `static/recommend.js` file.
-4. Open your terminal/command prompt from your project directory and run the `main.py` file by executing the command `python main.py`.
-5. Go to your browser and type `http://127.0.0.1:5000/` in the address bar.
-6. Hurray! That's it.
 
-### Sources of the datasets 
 
-1. [IMDB 5000 Movie Dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset)
-2. [The Movies Dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset)
-3. [List of movies in 2018](https://en.wikipedia.org/wiki/List_of_American_films_of_2018)
-4. [List of movies in 2019](https://en.wikipedia.org/wiki/List_of_American_films_of_2019)
-5. [List of movies in 2020](https://en.wikipedia.org/wiki/List_of_American_films_of_2020)
+<br>
+<br>
 
-Please do ⭐ the repository, if it helped you in anyway.
+# Prerequisites
+
+* Django
+  ```sh
+  pip install django
+  ```
+  
+  ### Installation
+
+1. Clone the repo
+   ```sh
+   https://github.com/Mubin19/Movie-Recommenation-System
+   ```
+2. How to run
+   ```sh
+   python manage.py runserver
+   ```
+# Screenshots
+
+![image](https://github.com/Mubin19/Movie-Recommenation-System/assets/84974315/2b9764e1-13b6-4d0c-9003-0f54a7588b79)
+![image](https://github.com/Mubin19/Movie-Recommenation-System/assets/84974315/436efa94-ebfe-47d6-9392-da677c890587)
+![image](https://github.com/Mubin19/Movie-Recommenation-System/assets/84974315/9c14e77c-0c59-4045-a04a-46988219c24c)
+![image](https://github.com/Mubin19/Movie-Recommenation-System/assets/84974315/073d5574-c607-4005-9d7e-0112a0032867)
+![image](https://github.com/Mubin19/Movie-Recommenation-System/assets/84974315/7c2e75be-6467-4280-b6c9-5b8dda72cd42)
+![image](https://github.com/Mubin19/Movie-Recommenation-System/assets/84974315/b1d856b6-64a7-4dc0-844d-0a24e1f224c8)
+![image](https://github.com/Mubin19/Movie-Recommenation-System/assets/84974315/79c53fea-db44-4776-bc18-a274dfc19cb0)
+![image](https://github.com/Mubin19/Movie-Recommenation-System/assets/84974315/46b05035-7b4d-405c-9774-0c31cf716608)
+![image](https://github.com/Mubin19/Movie-Recommenation-System/assets/84974315/b91891e5-4504-4d10-a0c5-0db13721b82b)
+![image](https://github.com/Mubin19/Movie-Recommenation-System/assets/84974315/386e033e-97a8-4cd4-a955-7ab204de7e4b)
+![image](https://github.com/Mubin19/Movie-Recommenation-System/assets/84974315/b876c28b-4f6e-477b-bd44-ee6ef619a3c7)
+![image](https://github.com/Mubin19/Movie-Recommenation-System/assets/84974315/2ccbd250-64f7-487e-9078-45da7b9be284)
+![image](https://github.com/Mubin19/Movie-Recommenation-System/assets/84974315/d1b3ef1d-5825-473a-9ece-d83cadb79816)
+![image](https://github.com/Mubin19/Movie-Recommenation-System/assets/84974315/24b6425c-62ce-40d1-8f96-d05623bd8153)
+![image](https://github.com/Mubin19/Movie-Recommenation-System/assets/84974315/8fce12a7-7522-4356-b68b-4949556e15ea)
+![image](https://github.com/Mubin19/Movie-Recommenation-System/assets/84974315/2c10a681-5497-486a-a46a-a6effdd91246)
+
+
+
+   
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## Contact
+
+Project Link:    https://github.com/Mubin19/Movie-Recommenation-System/
+
+Mubin Sayyed - mubinsayyed19@gmail
+
